@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>📝 博客</h1>
+
+    <!-- 导航：登录/注册/写文章 -->
+    <nav id="nav"></nav>
+
+    <!-- 文章列表渲染到这里 -->
+    <div id="app"></div>
+
+    <!-- 通用弹窗 -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <h3 id="modal-title"></h3>
+            <div id="modal-body"></div>
+            <div class="form-actions" id="modal-footer"></div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
